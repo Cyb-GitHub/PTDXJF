@@ -1,0 +1,41 @@
+{
+  "pages": [
+    "pages/tabbar/tabbar1",
+    "pages/tabbar/tabbar2",
+    "pages/tabbar/tabbar3",
+    "pages/tabbar/tabbar4",
+    "pages/tabbar/tabbar5"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/tabbar/tabbar1",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/tabbar/tabbar2",
+        "text": "项目汇总"
+      },
+      {
+        "pagePath": "pages/tabbar/tabbar3",
+        "text": "发起项目"
+      },
+      {
+        "pagePath": "pages/tabbar/tabbar4",
+        "text": "医疗咨询"
+      },
+      {
+        "pagePath": "pages/tabbar/tabbar5",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

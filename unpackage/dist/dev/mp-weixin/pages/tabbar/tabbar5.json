@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "莆田动协公益积分",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "tabbar": "/components/tabbar"
+  }
+}

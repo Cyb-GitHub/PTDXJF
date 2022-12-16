@@ -1,0 +1,76 @@
+{
+	"easycom": {
+		"^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+	    {
+            "path" : "pages/tabbar/tabbar1",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "莆田动协公益积分",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/tabbar/tabbar2",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "莆田动协公益积分",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/tabbar/tabbar3",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "莆田动协公益积分",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/tabbar/tabbar4",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "莆田动协公益积分",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/tabbar/tabbar5",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "莆田动协公益积分",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"list": [{
+			"pagePath": "pages/tabbar/tabbar1",
+			"text": "首页"
+		}, {
+			"pagePath": "pages/tabbar/tabbar2",
+			"text": "项目汇总"
+		},{
+			"pagePath": "pages/tabbar/tabbar3",
+			"text": "发起项目"
+		},{
+			"pagePath": "pages/tabbar/tabbar4",
+			"text": "医疗咨询"
+		},{
+			"pagePath": "pages/tabbar/tabbar5",
+			"text": "我的"
+		}]
+	}
+}
